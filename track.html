@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+		    *{
+				margin:0;
+				padding:0;
+				box-sizing:border-box;
+				font-family:Arial, sans-serif;
+			}
+			body{
+				background:#121212;
+				color:white;
+			}
+			.box{
+				height:600px;
+				width:1500px;
+				border:1px solid black;
+				margin:0 auto;
+			}
+			.menu{
+				height:600px;
+				width:400px;
+				border:1px solid black;
+				float:left;
+				background:linear-gradient(180deg, #8A2BE2, #00FFFF);
+			}
+			.left-box{
+				height:600px;
+				width:1096px;
+				float:left;
+				display:flex;
+				flex-direction:column;
+			}
+			.head{
+				height:100px;
+				width:1096px;
+				border-bottom:1px solid black;
+				background:linear-gradient(135deg, #8A2BE2, #00FFFF);
+				display:flex;
+				align-items:center;
+				padding:0 20px;
+			}
+			.head h1{
+				flex:1;
+				color:white;
+				font-size:85px;
+			}
+			.board{
+				height:500px;
+				width:1095px;
+				padding:20px;
+				background:#121212;
+			}
+			.board h2{
+				font-size:16px;
+				color:white;
+			}
+			.foot{
+				height:100px;
+				width:1500px;
+				border:1px solid black;
+				clear:both;
+				background:#000;
+				color:#bbb;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				font-size:15px;
+			}
+			table{
+				height:600px;
+				width:400px;
+				border:1px solid black;
+				border-collapse:collapse;
+			}
+			table tr th{
+				padding:10px;
+			}
+			table tr th a{
+				display:box;
+				color:white;
+				text-decoration:none;
+				font-size:35px;
+				font-weight:bold;
+				text-align:left;
+				padding-left:20px;
+			}
+			.logo{
+			  border-radius:50%;
+			  overflow:hidden;
+			}
+			.category,.album, .artist, .track, .production-house, .a, .b, .c{
+				height:170px;
+				width:200px;
+				border:1px solid black;
+				float:left;
+				margin-left:60px;
+				margin-top:40px;
+				background:#1f1f1f;
+				border-radius:12px;
+				font-size:30px;
+			}
+			.sbox{
+				height:100px;
+				width:175px;
+				border:1px solid black;	
+				margin:10px;
+				background:#2a2a2a;
+				border-radius:8px;
+				font-size:90px;
+				diplay:flex;
+				justify-content:center;
+				align-items:center;
+			}
+			.foot p{
+				font-size:20px;
+			}
+		</style>
+	<head>
+	<body>
+		<div class="box">
+			<div class="menu">
+			  <table border="1">
+				<tr>
+					<th><a href="dashboard.php">HOME</a></th>
+				</tr>
+				<tr>
+					<th><a href="category.php">CATEGORY</a></th>
+				</tr>
+				<tr>
+					<th><a href="album.php">ALBUM</a></th>
+				</tr>
+				<tr>
+					<th><a href="artist.php">ARTIST</a></th>
+				</tr>
+				<tr>
+					<th><a href="track.php">TRACK</a></th>
+				</tr>
+				<tr>
+					<th><a href="production-house.php">PRODUCTION HOUSE</a></th>
+				</tr>
+			  </table>
+			</div>
+			<div class="left-box">
+				<div class="head">
+				    <div class="logo"><img src="img2.jpg" height="95px" width="150px"></div>
+					<h1 align="center">MUSIC MANIA</h1>
+				</div>
+				<div class="board">
+				    
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+		   <p>&copy; 2026 Music Mania production Designed for Music.</p>
+		</div>
+	</body>
+</html>
