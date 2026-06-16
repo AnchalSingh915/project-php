@@ -1,62 +1,132 @@
 <!doctype html>
 <html>
 	<head>
-		 <style>
-		    body{
-				background-image: url('images/img1.jpg');
-				background-size:cover;
-				background-repeat:no-repeat;
-				background-attachment:fixed;
-			}
-
-			.box{ 
-			  height:150px;
-			  width:300px;
-              color:white;
-			  margin:auto;
-			  margin-top:150px;
-			  padding:20px;
-			  border-radius:20px 0px 20px 0px;
-			  background-color:darkblue;
-			  box-shadow:10px 10px 10px white;
-			}
-			th{
-				font-size:35px;
-			}
-			td{
-				font-size:20px;
-			}
-			#login input{
-				height:35px;
-				width:130px;
-				font-size:25px;
-			}
-			#login{
-				height:70px;
-			}
-		 </style>
+	<link type="text/css" rel="stylesheet" href="css/music.css"> 
+		<style>
+		.header{
+			margin:20px;
+			height:90px;
+			width:98%;
+			border:1px solid black;
+			align-items:center;
+		}
+		.menu{
+			margin:20px;
+			height:90px;
+			width:98%;
+			border:1px solid black;
+		}
+		.m1{
+			margin:10px;
+			height:65px;
+			width:12.9%;
+			border:1px solid black;
+			display:flex;
+			float:left;
+			align-items:center;
+			justify-content:center;
+		}
+		.box{
+			margin:20px;
+			height:1130px;
+			width:98%;
+			border:1px solid black;
+			align-items:center;
+		}
+		.b1{
+			margin:20px;
+			height:200px;
+			width:97.3%;
+			border:1px solid black;
+		}
+		.a1{
+			margin:20px;
+			height:160px;
+			width:15%;
+			border:1px solid black;
+			float:left;
+		}
+		.a2{
+			height:40px;
+			width:100%;
+			border:1px solid black;
+		}
+		.footer{
+			margin:20px;
+			height:80px;
+			width:98%;
+			border:1px solid black;
+			align-items:center;
+			font-size:20px;
+		}
+		</style>
 	<head>
 	<body>
+		<div class="header">
+		    <h1 align="center">MUSIC WORLD</h1>
+		</div>
+		<div class="menu">
+			<div class="m1">
+			   <h3>HOME</h3>
+			</div>
+			<div class="m1">
+				<h3>LOGIN</h3>
+			</div>
+			<div class="m1">
+				<h3>CATEGORY</h3>
+			</div>
+			<div class="m1">
+				<h3>ALBUM</h3>
+			</div>
+			<div class="m1">
+				<h3>ARTIST</h3>
+			</div>
+			<div class="m1">
+				<h3>PRODUCTION</h3>
+			</div>
+			<div class="m1">
+				<h3>TRACK</h3>
+			</div>
+		</div>
 		<div class="box">
-			<form>
-				<table>
-					<tr>
-						<th colspan="2">LOGIN</th>
-					</tr>
-					<tr>
-						<td>Username</td>
-					    <td><input type="email" name="email"></td>
-					</tr>
-					<tr>
-						<td>Password</td>
-					    <td><input type="password" name="password"></td>
-					</tr>
-					<tr>
-						<td></td>
-					    <td id="login"><input type="submit" value="Login"></td>
-					</tr>
-				</table>
-			</form>
+			<div class="b1">
+                <div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+			</div>
+			<div class="b1">
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+			</div>
+			<div class="b1">
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+			</div>
+			<div class="b1">
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+			</div>
+			<div class="b1">
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+				<div class="a1"><div class="a2"></div></div>
+			</div>
+		</div>
+		<div class="footer">
+			<p align="center">Copyright  2026 All Right Reserved By : Music Mania</p>
 		</div>
 	</body>
 </html>
